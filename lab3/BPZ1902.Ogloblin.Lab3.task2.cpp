@@ -13,7 +13,7 @@ namespace RBPO {
 			}
 
 			double a(int i) {
-				return pow(-1.0, i) * (i+1.0)/pow(i, 3.0)+1.0;
+				return pow(-1.0, i) * (i+1.0)/(pow(i, 3.0)+1.0);
 			}
 
 			double f3(int n) {
