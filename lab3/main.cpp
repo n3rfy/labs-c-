@@ -13,14 +13,15 @@ void task3();
 void task4();
 void task5();
 
+double x;
+double eps;
+int n;
 
 int main() {
 	setlocale(LC_ALL, "Russian");
 	
 	while (true){
-		double x;
-		double eps;
-		int n;
+		
 		cout << "Введите значение x: ";
 		cin >> x;
 		cout << "Введите нужную точность eps: ";
