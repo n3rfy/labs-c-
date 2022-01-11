@@ -18,18 +18,16 @@ double eps;
 int n;
 
 int main() {
-	setlocale(LC_ALL, "Russian");
-	
 	while (true){
 		
-		cout << "Введите значение x: ";
+		cout << "Enter the x value: ";
 		cin >> x;
-		cout << "Введите нужную точность eps: ";
+		cout << "Enter the desired eps accuracy: ";
 		cin >> eps;
-		cout << "Введите значение n: ";
+		cout << "Enter the value n: ";
 		cin >> n;
 		int choose = 0;
-		printf("Выберите номер таска:\n\t1 - Task1\n\t2 - Task2\n\t3 - Task3\n\t4 - Task4\n\t5 - Task5\n\t6 - Выход: ");
+		printf("Select the task number:\n\t1 - Task1\n\t2 - Task2\n\t3 - Task3\n\t4 - Task4\n\t5 - Task5\n\t6 - Exit: ");
 		cin >> choose;
 		printf("\n");
 		switch (choose){
@@ -56,7 +54,7 @@ int main() {
 			case 6:
 				return 0;
 			default:
-				printf("Выбирете число!\n");
+				printf("Select a number!\n");
 		}
 	}
 	return 0;
